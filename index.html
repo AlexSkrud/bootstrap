@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="utf-8">
@@ -18,11 +18,11 @@
           <h1 class="text-light text-center pt-3">Лидер в создании сайтов</h1>
         </div>
         <nav class="navbar navbar-expand-lg p-2">
-          <a class="navbar-brand text-warning fs-1 text" href="#">MoGo</a>
+          <a class="navbar-brand text-black fs-1 text" href="#"><i class="fab fa-gitlab" aria-hidden="true"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+              class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item"> <a class="nav-link text-white" href="#">Главная</a> </li>
               <li class="nav-item dropdown">
@@ -75,9 +75,7 @@
               </div>
             </div>
           </div>
-          <img src="assets/image/logo.jfif" class="img-fluid" alt="logo" width="50">
         </nav>
-
       </div>
     </div>
   </div>
@@ -207,33 +205,29 @@
       </div>
 
       <div class="col-xxl-2 col-xl-12 col-lg-6 border border-primary pt-2 pb-2">
-        <form action="">
-          <fieldset class="text-center bg-primary p-2 text-light mb-2">Регистрация</fieldset>
-          <div class="mb-1">
-            <label for="input-group-text" class="form-label">Фамилия</label>
-            <input type="text" class="form-control" placeholder="Фамилия" aria-label="Family"
-              aria-describedby="basic-addon1">
-          </div>
-          <div class="mb-1">
-            <label for="input-group-text" class="form-label">Имя</label>
-            <input type="text" class="form-control" placeholder="Имя" aria-label="Name" aria-describedby="basic-addon2">
-          </div>
-
-          <div class="mb-1">
-            <label for="input-group-text" class="form-label">Отчество</label>
-            <input type="text" class="form-control" placeholder="Отчество" aria-label="Soname"
-              aria-describedby="basic-addon3">
-          </div>
-
-          <div class="mb-1">
-            <label for="inputEmail" class="form-label">Ваш email</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="basic-addon4"
-              placeholder="example@gmail.com">
-          </div>
-          <div class="mb-1">
-            <label for="inputPassword" class="form-label">Пароль</label>
-            <input type="password" class="form-control" id="inputPassword">
-          </div>
+        <h2>Регистрация</h2>
+        <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+          <fieldset class="bg-primary p-2 text-light mb-2">
+            <div class="mb-1">
+              <label for="Family" class="form-label">Фамилия</label>
+              <input type="text" id="Family" class="form-control" placeholder="Фамилия" aria-label="Family">
+            </div>
+            <div class="mb-1">
+              <label for="Name" class="form-label">Имя</label>
+              <input type="text" id="Name" class="form-control" placeholder="Имя" aria-label="Name">
+            </div>
+            <div class="mb-1">
+              <label for="Soname" class="form-label">Отчество</label>
+              <input type="text" id="Soname" class="form-control" placeholder="Отчество" aria-label="Soname">
+            </div>
+            <div class="mb-1">
+              <label for="Email" class="form-label">Ваш email</label>
+              <input type="email" class="form-control" id="Email" placeholder="example@gmail.com">
+            </div>
+            <div class="mb-1">
+              <label for="inputPassword" class="form-label">Пароль</label>
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
           </fieldset>
           <div class="d-flex justify-content-center">
             <input class="btn btn-primary mt-2" type="submit" value="Отправить">
@@ -242,7 +236,6 @@
       </div>
     </div>
   </div>
-
 
   <footer class="bg-primary mt-2">
     <div class="container">
@@ -262,7 +255,6 @@
             <a class="nav-link text-light fs-1" href="#"><i class="fab fa-pinterest-square"></i></a>
           </li>
         </ul>
-
       </div>
     </div>
   </footer>
